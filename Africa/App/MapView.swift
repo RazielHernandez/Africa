@@ -30,13 +30,13 @@ struct MapView: View {
         
         // MARK: - No2 ADVANCED MAP
         
-        Map(position: $cameraPosition) {
+        //Map(position: $cameraPosition) {
             //ForEach(locations) { location in
             //    MapAnnotationView(location: location)
             //}
-        }
+        //}
         
-        /*Map(coordinateRegion: $region, annotationItems: locations, annotationContent: { item in
+        Map(coordinateRegion: $region, annotationItems: locations, annotationContent: { item in
             // (A) PIN: OLD STYLE (always static)
             //MapPin(coordinate: item.location, tint: .accentColor)
           
@@ -56,7 +56,7 @@ struct MapView: View {
               
             MapAnnotationView(location: item)
           }
-        })*/ //: MAP
+        }) //: MAP
         .overlay(
           HStack(alignment: .center, spacing: 12) {
             Image("compass")

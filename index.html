@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Africa App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+        <style>
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 250px;
+                
+            }
+            
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+            
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .header-container{
+                padding:0.01em 16px
+            }
+
+            .header-black,.header-hover-black:hover{
+                color:#fff!important;
+                background-color:#000!important
+            }
+
+            .header-centered {
+                text-align: center;
+                padding-top:32px!important;
+                padding-bottom:32px!important
+            }
+
+            .header-title{
+                font-size:64px!important
+            }
+
+            .header-subtitle{
+                font-size: 32px!important;
+            }
+
+            .hide-small{
+                display:none!important
+            }
+        </style>
+    </head>
+    <body>
+        <!--<header class="w3-container w3-padding-32 w3-center w3-black" id="home">-->
+        <header class="header-container header-black header-centered" id="home">
+            <h1 class="header-title"><span class="hide-small">I'm</span>Africa Gallery App</h1>
+            <h1 class="header-subtitle">Developed by Raziel Hernandez</h1>
+            <p>This App was designed following the course "SwiftUI + SwiftData Masterclass - iOS App Development Swift" and implements some of the basic and intermediate principles of SwiftUI such as creation of views, logo, colorsets, home screen, image gallery, implementation of maps with custom bookmarks, video playback and JSON file handling</p>
+            <img src="Media/icon_image.png" alt="Africa App logo" width="120" height="120">
+        </header>
+        
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage1.png">
+              <img src="Media/AppImage1.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">Stylized design with a thumbnail list of the different animals</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage2.png">
+              <img src="Media/AppImage2.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">Image gallery with button to change the view, varying the number of columns</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage3.png">
+              <img src="Media/AppImage3.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">View with details of each animal, including two different galleries (images and facts)</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage4.png">
+              <img src="Media/AppImage4.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">Video list that allows the user to automatically play a video when selecting it</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage5.png">
+              <img src="Media/AppImage5.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">Gallery with dynamic number of columns, controlled by a slider</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="Media/AppImage6.png">
+              <img src="Media/AppImage6.png" alt="AppImage1" width="600" height="400">
+            </a>
+            <div class="desc">Implementation of a map with custom markers</div>
+        </div>
+    </body>
+</html>
