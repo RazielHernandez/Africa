@@ -9,6 +9,15 @@
 ## 📱 About the App
 Africa is an application developed for learning purposes, the idea of which is to present information and multimedia content to users about the fauna of the African continent. 
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Media/AppImage1.png" alt="Home Screen" width="200"/>
+  <img src="Media/AppImage3.png" alt="Details Screen" width="200"/>
+  <img src="Media/AppImage4.png" alt="Vide Gallery" width="200"/>
+  <img src="Media/AppImage6.png" alt="Map" width="200"/>
+</p>
+
 ### ✨ Features
 - **Stylized user interface**: A user interface designed to captivate users with a customized color palette.
 - **Multimedia**: Multimedia elements such as image galleries and videos.
