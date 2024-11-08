@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media\africa_logo.png" alt="App Logo" width="200"/>
+  <img src="africa_logo.png" alt="App Logo" width="200"/>
 </p>
 
 # Africa
